@@ -20,3 +20,7 @@ Implement N-gram language model
 * precalculate probability distribution for vocabulary of the training corpus (use `NLTK.ngrams`
 * Predict most likely next token with given previous tokens
 * Measure perplexity to test LM performance
+
+## Recurrent Neural Network
+Implement Recurrent Neural Network model
+* Build RNN model with tensorflow
