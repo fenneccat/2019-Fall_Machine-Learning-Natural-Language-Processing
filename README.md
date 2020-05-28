@@ -24,3 +24,11 @@ Implement N-gram language model
 ## Recurrent Neural Network
 Implement Recurrent Neural Network model
 * Build RNN model with tensorflow
+
+## Wordpiece RNN (Korean Data)
+Implement sub-word RNN model to avoid overfitting problem
+* Breaking word into sub-word => Byte-pair encoding
+* Compare performance of RNN LM with three different setting
+	- word token
+	- Byte-pair encoding
+	- SentencePiece (Google)
