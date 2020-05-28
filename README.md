@@ -14,3 +14,9 @@ Implement BOW vectorizer
 Implement Naive Bayes model
 * Calculate prior, likelihood
 * Add one smoothing
+
+## N-gram Language Model
+Implement N-gram language model
+* precalculate probability distribution for vocabulary of the training corpus (use `NLTK.ngrams`
+* Predict most likely next token with given previous tokens
+* Measure perplexity to test LM performance
